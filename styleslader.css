@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent
+}
+#awOnePageButton .view-slide {
+	display: none;
+}
+.showcase-load {
+	height: 470px; /* Same as showcase javascript option */
+	overflow: hidden;
+}
+
+.showcase-onepage {
+/**/
+}
+.showcase {
+	position: relative;
+	margin: 0 auto 33px auto;
+	height: 426px;
+}
+.showcase-content-container {
+	background-color: #000;
+}
+.showcase-arrow-previous, .showcase-arrow-next {
+	position: absolute;
+	top: 50%;
+	margin-top: -9px;
+	background: url('style/images/arrows.png');
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+}
+.showcase-arrow-previous {
+	background-position: 0 0;
+}
+.showcase-arrow-previous:hover {
+	background-position: 0 -25px;
+}
+.showcase-arrow-next {
+	background-position: 25px 0;
+}
+.showcase-arrow-next:hover {
+	background-position: -25px -25px;
+}
+.showcase-content {
+	background-color: #000;
+	text-align: center;
+}
+.showcase-content-wrapper {
+	text-align: center;
+	height: 400px;
+	width: 900px;
+	display: table-cell;
+	vertical-align: middle;
+}
+.showcase-plus-anchor {
+	background-image: url('style/images/plus.png');
+	background-repeat: no-repeat;
+}
+.showcase-plus-anchor:hover {
+	background-position: -32px 0;
+}
+div.showcase-tooltip {
+	background-color: #fff;
+	color: #000;
+	text-align: left;
+	padding: 5px 8px;
+	background-image: url(style/images/white-opacity-80.png);
+}
+.showcase-caption {
+	color: #b5b5b5;
+	padding: 9px 15px 7px 15px;
+	text-align: left;
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	display: none;
+	width: auto;
+	background-image: url(style/images/white-opacity-80.png);
+}
+.showcase-onepage .showcase-content {
+	margin-bottom: 10px;
+}
+.showcase-button-wrapper {
+	clear: both;
+	margin-top: 15px;
+	text-align: center;
+	position: relative;
+	margin-right:-7px;
+}
+.showcase-button-wrapper span {
+	cursor: pointer;
+	margin: 3px 7px 0 0;
+	width: 12px;
+	height: 12px;
+	text-indent: -99999px;
+	display: inline-block;
+	background: url('style/images/navs.png');
+}
+.showcase-button-wrapper span:hover, .showcase-button-wrapper span.active {
+	background-position: 0 -12px;
+}
+.showcase-thumbnail-container /* Used for backgrounds, no other styling!!! */ {
+	background-color: #000;
+}
+.showcase-thumbnail-wrapper {
+	overflow: hidden;
+}
+.showcase-thumbnail {
+	width: 120px;
+	height: 90px;
+	cursor: pointer;
+	border: solid 1px #333;
+	position: relative;
+}
+.showcase-thumbnail-caption {
+	position: absolute;
+	bottom: 2px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+.showcase-thumbnail-content {
+	padding: 10px;
+	text-align: center;
+	padding-top: 25px;
+}
+.showcase-thumbnail-cover {
+	background-image: url(style/images/black-opacity-40.png);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.showcase-thumbnail:hover {
+	border: solid 1px #999;
+}
+.showcase-thumbnail:hover .showcase-thumbnail-cover {
+	display: none;
+}
+.showcase-thumbnail.active {
+	border: solid 1px #999;
+}
+.showcase-thumbnail.active .showcase-thumbnail-cover {
+	display: none;
+}
+.showcase-thumbnail-wrapper-horizontal {
+	padding: 10px;
+}
+.showcase-thumbnail-wrapper-horizontal .showcase-thumbnail {
+	margin-right: 10px;
+	width: 116px;
+}
+.showcase-thumbnail-wrapper-vertical {
+	padding: 10px;
+}
+.showcase-thumbnail-wrapper-vertical .showcase-thumbnail {
+	margin-bottom: 10px;
+}
+.showcase-thumbnail-button-backward,  .showcase-thumbnail-button-forward {
+	padding: 7px;
+	cursor: pointer;
+}
+.showcase-thumbnail-button-backward {
+	padding-bottom: 0px;
+	padding-right: 0px;
+}
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical, .showcase-thumbnail-button-forward .showcase-thumbnail-vertical, .showcase-thumbnail-button-forward .showcase-thumbnail-horizontal, .showcase-thumbnail-button-backward .showcase-thumbnail-horizontal {
+	background-image: url(style/images/arrows-small.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 17px;
+	height: 17px;
+}
+.showcase-thumbnail-button-backward .showcase-thumbnail-vertical {
+	background-position: 0 -51px;
+	margin-left: 55px;
+}
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-vertical {
+	background-position: -17px -51px;
+}
+.showcase-thumbnail-button-forward .showcase-thumbnail-vertical {
+	background-position: 0 -34px;
+	margin-left: 55px;
+}
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-vertical {
+	background-position: -17px -34px;
+}
+.showcase-thumbnail-button-backward .showcase-thumbnail-horizontal {
+	background-position: 0 -17px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.showcase-thumbnail-button-backward:hover .showcase-thumbnail-horizontal {
+	background-position: -17px -17px;
+}
+.showcase-thumbnail-button-forward .showcase-thumbnail-horizontal {
+	background-position: 0 0;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.showcase-thumbnail-button-forward:hover .showcase-thumbnail-horizontal {
+	background-position: -17px 0;
+}
+/* Hide button text */
+.showcase-thumbnail-button-forward span span, .showcase-thumbnail-button-backward span span {
+	display: none;
+}

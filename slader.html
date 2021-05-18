@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>My clader</title>
+<link rel="stylesheet" type="text/css" href="styleslader.css" media="all" />
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="js/transify.js"></script>
+<script type="text/javascript" src="js/jquery.aw-showcase.js"></script>
+<script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/jquery.slickforms.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$('.forms').dcSlickForms();
+});
+</script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+	$("#showcase").awShowcase(
+	{
+		content_width:			900,
+		content_height:			400,
+		auto:					true,
+		interval:				3000,
+		continuous:				false,
+		arrows:					true,
+		buttons:				true,
+		btn_numbers:			true,
+		keybord_keys:			true,
+		mousetrace:				false, /* Trace x and y coordinates for the mouse */
+		pauseonover:			true,
+		stoponclick:			false,
+		transition:				'fade', /* hslide/vslide/fade */
+		transition_delay:		0,
+		transition_speed:		500,
+		show_caption:			'onload' /* onload/onhover/show */
+	});
+});
+
+</script>
+
+</head>
+<body>
+<div>
+  <div id="container" class="opacity">
+    <div id="showcase" class="showcase"> 
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/s1.jpg" alt="1" /> </div>
+      </div>
+      
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/s2.jpg" alt="2" /> </div>
+      </div>
+      
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <iframe src="http://player.vimeo.com/video/24243147?title=0&amp;byline=0&amp;portrait=0" width="900" height="400" frameborder="0"></iframe> </div>
+      </div>
+      
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/s3.jpg" alt="3" /> </div>
+      </div>
+      <!-- Each child div in #showcase represents a slide -->
+      <div class="showcase-slide"> 
+        <!-- Put the slide content in a div with the class .showcase-content. -->
+        <div class="showcase-content"> <img src="style/images/s4.jpg" alt="4" /> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
